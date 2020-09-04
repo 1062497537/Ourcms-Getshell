@@ -2,7 +2,7 @@
 error_reporting(0); 
 set_time_limit(0);//ourphpcms 前台getshell exp  by 05
 header("Content-type: text/html; charset=utf-8"); 
-$GLOBALS['SCKEY'] = "SCU106786T6db3e6642692a0e58036a7ce140e1f7c5f183804554e7"; //Server酱 的 SCKEY
+$GLOBALS['SCKEY'] = ""; //Server酱 的 SCKEY
 function getRandomString($len, $n){
  $chars ="bcdefghijklmnpqrtuvwxyzBCDEFGHIJKLMNPQRTUVWXYZ12345679"; 
  mt_srand($n);
